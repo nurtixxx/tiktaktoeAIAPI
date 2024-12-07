@@ -4,7 +4,7 @@ import numpy as np
 import tensorflow as tf
 
 # Загрузка вашей обученной нейросети
-model = tf.keras.models.load_model('path_to_your_model.h5')  # Укажите путь к вашей модели
+model = tf.keras.models.load_model('F:\Downloads\projects\AIAPtiktaktoe\tiktaktoeAIAPI')  # Укажите путь к вашей модели
 
 # Инициализация FastAPI
 app = FastAPI()
